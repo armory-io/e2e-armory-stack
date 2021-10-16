@@ -2,12 +2,12 @@ services:
   e2e-extension-service:
     baseService: e2e-oss-service
     image:
-      imageId: sha256:bda421b0ffc0b7d6afbbd5b8bc616402319ba282a4b2633cad8d6a196ea8b9e4
+      imageId: sha256:76028af99d329d31ffe556c58e0c41581328fae7b08d227a9a7e56e72d4e9843
       repository: armory/e2e-extension-service
-      tag: 2021.10.16.00.17.11.main
+      tag: 2021.10.16.01.02.14.main
     vcs:
       repo:
         orgName: armory-io
         repoName: e2e-extension-service
         type: github
-      sha: 3de086e1575a10f77a72e69664a57af1e3cecf72
+      sha: cfc4c70fb06a2b9b1f635c93a1aeff22ceeb2463
